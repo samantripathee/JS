@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
 </head>
 <body>
-   
-    <h1>People Entered:</h1>
-    <h2 id="zero">0</h2>
-    <div id = "button">
-    <button id = "increment-button" onclick="increment()">Increment</button>
-    <button id="save-bt" onclick="save()">Save</button>
-</div>
-<p id="previous-el">Previous Entries: </p>
-<script src="./index.js" >
-</script>
+    <h1>BlackJack</h1>
+    <h2 id="question">Would you like to play a game?</h2>
+    <div id="container">
+    <span id="third-row"></span>
+    <span id="final-row"></span>
+    </div>
+    <div id="button-container">
+        <button id="start-button" onclick = "startGame()">
+            START GAME
+        </button>
+        <button id = "new-card" onclick="newCard()">NEW CARD</button>
+    </div>
+    <script src="./index.js"></script>
 </body>
 </html>

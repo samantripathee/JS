@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="number-container">
+        <span id="first-num">8</span> <span id="second-num">2</span>
+</div>
+    <br>
+    <div id="first-row">
+        <button id="add" onclick = "add()">Add</button>
+        <button id="sub" onclick="subtract()">Subtract</button>
+        <button id="div" onclick="divide()">Divide</button>
+    </div>
+    <div id="second-row">
+        <button id="multiply" onclick="mul()">Multiply</button>
+    </div>
+    <div id="final-row">
+        <p id="result"></p>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
